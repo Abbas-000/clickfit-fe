@@ -10,6 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/aksfileupload@1.0.0/dist/aksFileUpload.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
@@ -293,14 +294,16 @@
                 </div>
             </div>
         </section>
-        <section class="position-relative">
-            <div class="overlay-2">
-                <div class="row justify-content-end align-items-center" style="min-height: 600px;">
-                    <div class="col-12 col-md-5 text-center">
-                        <h1 class="display-3 text-capitalize fw-semibold">Hello World!</h1>
-                        <p class="display-6 fw-light" id="load-text">
+        <section>
+            <div class="position-relative">
+                <div class="overlay-2">
+                    <div class="row justify-content-end align-items-center" style="min-height: 600px;">
+                        <div class="col-12 col-md-5 text-center">
+                            <h1 class="display-3 text-capitalize fw-semibold">Hello World!</h1>
+                            <p class="display-6 fw-light" id="load-text">
 
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -380,7 +383,13 @@
                 </div>
             </div>
         </section>
+        <section>
+            <aks-file-upload></aks-file-upload>
+            <p id="file" type="json"></p>
+        </section>
     </main>
+
+    <script src="https://unpkg.com/aksfileupload@1.0.0/dist/aksFileUpload.min.js"></script>
     <script src="script.js" type="text/javascript" defer></script>
 </body>
 

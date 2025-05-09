@@ -142,7 +142,7 @@
 
 #news-section {
     width: fit-content; 
-    height: 1700px;
+    height: auto;
     margin-top: 30rem;
 }
 
@@ -155,6 +155,24 @@
     top: 5rem;
 }
 
+aks-file-upload {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8rem 0;
+    border: 2px dashed #2c5364;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#file {
+    width: 80%;
+    margin: 0 auto;
+    color: #000;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 @media screen and (max-width: 1390px) {
     .testimonial-section {
