@@ -10,10 +10,10 @@ $(document).ready(function () {
   $(function () {
     $("aks-file-upload").aksFileUpload({
       fileUpload: "#file",
-      fileType: ["pdf", "docx", "rtf", "jpg", "jpeg", "png"],
+      fileType: ["pdf", "docx", "rtf", "jpg", "jpeg", "png", "webp", "gif"],
       dragDrop: true,
       maxSize: "50 MB",
-      multiple: true,
+      multiple: false,
       maxFile: 5,
       ajaxUpload: true,
       ajax: {

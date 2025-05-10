@@ -32,6 +32,17 @@
     margin: 0;
 }
 
+.carousel-item {
+    height: 80vh;
+    width: 100%;;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
 .brand-style {
     font-weight: var(--heading-font-weight-light);
     font-family: var(--font-family-base);
@@ -230,7 +241,8 @@ hr {
     z-index: 1;
 }
 
-#footer-background section, #footer-background hr {
+#footer-background section,
+#footer-background hr {
     position: relative;
     z-index: 2;
     color: #fff;
@@ -262,6 +274,7 @@ hr {
         padding: 0 0.5rem;
         height: 37rem;
     }
+
     footer {
         height: auto;
     }
